@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Lo que dicen nuestros clientes"
-description: "Estas son las experiencias de nuestros clientes mas cercanos."
+title: "What Users Are Saying About Nextplate"
+description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Nextplate."
 
 # Testimonials
 testimonials:
