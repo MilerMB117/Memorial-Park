@@ -25,6 +25,6 @@ features:
       - "Traslados De Todo El Territorio Nacional"
     button:
       enable: True
-      label: "Quiero Repatriar"
+      label: "Quiero Repatriar desde USA"
       link: "#"
 ---
