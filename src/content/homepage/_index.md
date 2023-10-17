@@ -3,16 +3,16 @@
 banner:
   title: "BIENVENIDOS A MEMORIAL PARK"
   content: "En Memorial Park estamos comprometidos en ayudarle a sobrellevar este difícil momento de la vida. Deseamos brindarle la tranquilidad que usted necesita para despedir a sus seres queridos mientras nosotros nos encargamos de todo por usted."
-  image: "/images/banner.png"
+  image: "/images/home.jpg"
   button:
     enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Dev"
+    link: "https://github.com/MilerMB117"
 
 # Features
 features:
   - title: "NUESTROS SERVICIOS"
-    image: "/images/service-1.png"
+    image: "/images/service-1.jpg"
     content: "Ofrecemos diferentes servicios para su comodidad"
     bulletpoints:
       - "Camposanto"
@@ -26,5 +26,5 @@ features:
     button:
       enable: True
       label: "Quiero Repatriar desde USA"
-      link: "#"
+      link: "https://wa.me/+50685520707"
 ---

@@ -26,7 +26,7 @@ const Contact = async () => {
               <form action={contact_form_action} method="POST">
                 <div className="mb-6">
                   <label htmlFor="name" className="form-label">
-                    Full Name <span className="text-red-500">*</span>
+                    Nombre Completo<span className="text-red-500">*</span>
                   </label>
                   <input
                     id="name"
@@ -38,7 +38,7 @@ const Contact = async () => {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="email" className="form-label">
-                    Working Mail <span className="text-red-500">*</span>
+                    E-mail <span className="text-red-500">*</span>
                   </label>
                   <input
                     id="email"
@@ -50,7 +50,7 @@ const Contact = async () => {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="message" className="form-label">
-                    Anything else? <span className="text-red-500">*</span>
+                    Dinos algo<span className="text-red-500">*</span>
                   </label>
                   <textarea
                     id="message"
@@ -61,10 +61,51 @@ const Contact = async () => {
                   ></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">
-                  Submit
+                  Enviar
                 </button>
               </form>
             </div>
+            <div className="lg:col-6">
+  <div className="contact-info">
+    <p>
+      <span className="contact-icon">
+        <i className="fas fa-phone"></i>
+      </span>
+      <a href="tel:22150707">Tel: 2215-0707</a>
+      <span className="contact-icon">
+        <i className="fab fa-whatsapp"></i>
+      </span>
+      <a href="https://wa.me/+50685520707"> WhatsApp: +506 8552-0707</a>
+    </p>
+    <p>
+      <span className="contact-icon">
+        <i className="fas fa-envelope"></i>
+      </span>
+      <a href="mailto:info@memorialpark.cr">info@memorialpark.cr</a>
+    </p>
+    <p>
+      <span className="contact-icon">
+        <i className="fas fa-globe"></i>
+      </span>
+      <a href="https://www.memorialpark.cr" target="_blank" rel="noopener noreferrer">
+        www.memorialpark.cr
+      </a>
+    </p>
+  </div>
+  <div className="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.6720807379716!2d-84.17630538825958!3d9.96121707365748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fbe86c6238cd%3A0xc8645b9111627020!2sCamposanto%20Memorial%20Park!5e0!3m2!1ses!2sco!4v1697576750956!5m2!1ses!2sco"
+      width="100%"
+      height="450"
+      style={{
+        border: '0',
+      }}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
+
           </div>
         </div>
       </section>
