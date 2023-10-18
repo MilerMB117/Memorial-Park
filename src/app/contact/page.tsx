@@ -50,7 +50,7 @@ const Contact = async () => {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="message" className="form-label">
-                    Dinos algo<span className="text-red-500">*</span>
+                    Escríbanos<span className="text-red-500">*</span>
                   </label>
                   <textarea
                     id="message"
