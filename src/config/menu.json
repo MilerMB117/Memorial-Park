@@ -9,20 +9,20 @@
       "url": "/about"
     },
     {
-      "name": "Contacto",
-      "url": "/contact"
+      "name": "Repatriaciones",
+      "url": "/repatria"
     },
     {
-      "name": "Repatriaciones",
-      "url": "/404"
+      "name": "Galeria",
+      "url": "/gallery"
     },
     {
       "name": "FAQ",
       "url": "/categories"
     },
     {
-      "name": "Galeria",
-      "url": "/404"
+      "name": "Contacto",
+      "url": "/contact"
     }
   ],
   "footer": [
