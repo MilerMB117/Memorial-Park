@@ -176,3 +176,12 @@
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:dark:text-darkmode-text;
 }
+.image-slider-container {
+  width: 100%; /* Ancho al 100% para que se ajuste al contenedor */
+}
+
+.swiper-slide img {
+  width: 100%; /* Ancho al 100% para ajustar la imagen al contenedor */
+  border-radius: 10px; /* Radio de borde deseado */
+}
+

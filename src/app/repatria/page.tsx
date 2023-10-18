@@ -1,26 +1,28 @@
-import config from "@/config/config.json";
-import Search from "@/layouts/Search";
-import { getSinglePage } from "@/lib/contentParser";
 import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
-
-const { blog_folder } = config.settings;
-
-// Retrieve all articles
-const posts: Post[] = getSinglePage(blog_folder);
-
-// List of items to search in
-const searchList = posts.map((item) => ({
-  slug: item.slug!,
-  frontmatter: item.frontmatter,
-  content: item.content,
-}));
+import { getListPage } from "@/lib/contentParser";
+import Testimonials from "@/partials/Testimonials";
 
 const repatria = () => {
+  const testimonial = getListPage("sections/testimonial.md");
   return (
     <>
-      <SeoMeta title={"Repatriar"} />
-      <Search searchList={searchList} />
+    <section className="section pt-14">
+    <div className="container">
+    <div className="row justify-center"></div>
+    <div className="gallery-container text-center">
+      <SeoMeta title={"Repatria"} />
+      <h3 className="mb-2">Repatria desde 🇺🇸 EEUU/CANADA 🇨🇦</h3>
+      <p className="mb-8">
+      Es cada vez más común que muchos estadounidenses vengan a residir en Costa Rica.  Cuando se presente una muerte de un ser querido, es normal que su familia solicite la repatriación de sus restos a su pueblo natal, ya sea de cuerpo entero o en cenizas.
+     </p>
+      <p className="mb-8">
+      Este proceso conlleva varios pasos, en los cuales están incluidos el Consulado de los Estados Unidos y/o Canadá y el Ministerio de Salud de Costa Rica.
+     </p>
+     
+     </div>
+     </div>
+    </section>
+    <Testimonials data={testimonial} />
     </>
   );
 };
