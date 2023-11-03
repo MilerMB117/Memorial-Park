@@ -1,0 +1,38 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/home"
+    },
+    {
+      "name": "Nosotros",
+      "url": "/abouty"
+    },
+    {
+      "name": "Repatriaciones",
+      "url": "/repatri"
+    },
+    {
+      "name": "Galeria",
+      "url": "/galleri"
+    },
+    {
+      "name": "FAQ",
+      "url": "/categories"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contacto"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Politica de Privacidad",
+      "url": "/privacy-policy"
+    }
+  ]
+}
