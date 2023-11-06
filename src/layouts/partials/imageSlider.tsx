@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const ImageSlider = () => {
   // Define las rutas de las imágenes aquí
   const imagePaths = [
-    "/images/campo/1.jpg",
-    "/images/campo/2.jpg",
-    "/images/campo/3.jpg",
+    "/images/campo/1.png",
+    "/images/campo/2.png",
+    "/images/campo/3.png",
   ];
 
   const swiperParams = {

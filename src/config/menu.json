@@ -2,19 +2,19 @@
   "main": [
     {
       "name": "Inicio",
-      "url": "/home"
+      "url": "/"
     },
     {
       "name": "Nosotros",
-      "url": "/abouty"
+      "url": "/about"
     },
     {
       "name": "Repatriaciones",
-      "url": "/repatri"
+      "url": "/repatria"
     },
     {
       "name": "Galeria",
-      "url": "/galleri"
+      "url": "/gallery"
     },
     {
       "name": "FAQ",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Contacto",
-      "url": "/contacto"
+      "url": "/contact"
     }
   ],
   "footer": [
