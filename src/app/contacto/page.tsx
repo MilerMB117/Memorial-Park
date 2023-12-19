@@ -3,6 +3,7 @@ import { getListPage } from "@/lib/contentParser";
 import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
+import WhatsApp from "@/partials/Whatsapp";
 
 const Contact = async () => {
   const data: RegularPage = getListPage("contact/_index.md");
@@ -71,11 +72,8 @@ const Contact = async () => {
       <span className="contact-icon">
         <i className="fas fa-phone"></i>
       </span>
-      <a href="tel:22150707">Tel: 2215-0707</a>
-      <span className="contact-icon">
-        <i className="fab fa-whatsapp"></i>
-      </span>
-      <a href="https://wa.me/+50685520707"> WhatsApp: +506 8552-0707</a>
+      <a href="tel:22150707">Tel: +506 2215 0707</a>
+
     </p>
     <p>
       <span className="contact-icon">
@@ -109,6 +107,7 @@ const Contact = async () => {
           </div>
         </div>
       </section>
+      <WhatsApp/>
     </>
   );
 };

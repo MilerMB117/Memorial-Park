@@ -9,6 +9,16 @@
       "name": "Instagram",
       "icon": "FaInstagram",
       "link": "https://www.instagram.com/memorialparkcr/"
+    },
+    {
+      "name": "github",
+      "icon": "FaGithub",
+      "link": "https://www.github.com/"
+    },
+    {
+      "name": "linkedin",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/"
     }
   ]
 }
