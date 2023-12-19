@@ -1,6 +1,7 @@
 import SeoMeta from "@/partials/SeoMeta";
 import { getListPage } from "@/lib/contentParser";
 import Testimonials from "@/partials/Testimonials";
+import WhatsApp from "@/partials/Whatsapp";
 
 const repatria = () => {
   const testimonial = getListPage("sections/testimonial.md");
@@ -23,6 +24,7 @@ const repatria = () => {
      </div>
     </section>
     <Testimonials data={testimonial} />
+    <WhatsApp />
     </>
   );
 };

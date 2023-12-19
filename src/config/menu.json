@@ -9,6 +9,10 @@
       "url": "/about"
     },
     {
+      "name": "Servicios",
+      "url": "/servicios"
+    },
+    {
       "name": "Repatriaciones",
       "url": "/repatria"
     },
@@ -18,11 +22,11 @@
     },
     {
       "name": "FAQ",
-      "url": "/categories"
+      "url": "/faq"
     },
     {
       "name": "Contacto",
-      "url": "/contact"
+      "url": "/contacto"
     }
   ],
   "footer": [

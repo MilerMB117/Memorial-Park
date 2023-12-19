@@ -5,6 +5,7 @@ import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
+import WhatsApp from '@/partials/Whatsapp';
 
 const About = () => {
   const data: RegularPage = getListPage("about/_index.md");
@@ -68,6 +69,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <WhatsApp />
     </>
   );
 };

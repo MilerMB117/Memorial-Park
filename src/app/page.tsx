@@ -6,6 +6,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
+import WhatsApp from "@/partials/Whatsapp";
 
 
 
@@ -113,10 +114,12 @@ const Home = () => {
           </div>
         </section>
       ))}
-
       <Testimonials data={testimonial} />
+      <WhatsApp />
       {/* <CallToAction data={callToAction} /> */}
+
     </>
+
   );
 };
 

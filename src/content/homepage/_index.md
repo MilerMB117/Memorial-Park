@@ -25,6 +25,11 @@ features:
       - "Traslados De Todo El Territorio Nacional"
     button:
       enable: True
+      label: "Ver más"
+      link: "/servicios"
+    
+    button2:
+      enable: True
       label: "Quiero Repatriar desde USA"
       link: "https://wa.me/+50685520707"
 ---

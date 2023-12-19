@@ -2,6 +2,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import { getListPage } from "@/lib/contentParser";
 import Testimonials from "@/partials/Testimonials";
 import ImageSlider from "@/partials/imageSlider";
+import WhatsApp from "@/partials/Whatsapp";
 
 
 
@@ -21,6 +22,7 @@ const Gallery = () => {
      </div>
      </div>
     </section>
+    <WhatsApp />
     </>
   );
 };
