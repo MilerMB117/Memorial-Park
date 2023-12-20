@@ -76,7 +76,6 @@ const ImageSlider = () => {
     },
   };
 
-
   return (
     <div className="image-slider-container">
     <Swiper {...swiperParams}>

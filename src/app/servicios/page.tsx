@@ -60,13 +60,6 @@ const servicios = () => {
 </Tab>
 
 
-
-
-
-
-
-
-
 </Tabs>
 
      </div>
