@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "NUESTROS SERVICIOS"
-    image: "/images/service-1.jpg"
+    image: "/images/service-1.png"
     content: "Ofrecemos diferentes servicios para su comodidad"
     bulletpoints:
       - "Camposanto"
