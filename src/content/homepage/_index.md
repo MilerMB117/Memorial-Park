@@ -3,7 +3,7 @@
 banner:
   title: "BIENVENIDOS A MEMORIAL PARK"
   content: "En Memorial Park estamos comprometidos en ayudarle a sobrellevar este difícil momento de la vida. Deseamos brindarle la tranquilidad que usted necesita para despedir a sus seres queridos mientras nosotros nos encargamos de todo por usted."
-  image: "/images/home.png"
+  image: "/images/campo/50.png"
   button:
     enable: false
     label: "Dev"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "NUESTROS SERVICIOS"
-    image: "/images/service-1.png"
+    image: "/images/campo/51.png"
     content: "Ofrecemos diferentes servicios para su comodidad"
     bulletpoints:
       - "Camposanto"
