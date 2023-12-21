@@ -11,15 +11,14 @@ const NotFound = async () => {
               <span className="text-[8rem] block font-bold text-dark dark:text-darkmode-dark">
                 404
               </span>
-              <h1 className="h2 mb-4">Page not found</h1>
+              <h1 className="h2 mb-4">Pagina no encontrada!</h1>
               <div className="content">
                 <p>
-                  The page you are looking for might have been removed, had its
-                  name changed, or is temporarily unavailable.
+                  Esta pagina no exite o fue removida.
                 </p>
               </div>
               <a href="/" className="btn btn-primary mt-8">
-                Back to home
+                Ve al incio
               </a>
             </div>
           </div>

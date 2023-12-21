@@ -14,7 +14,7 @@ interface TabsProps {
   autoSwitchInterval?: number;
 }
 
-function Tabs({ children, autoSwitchInterval = 5000 }: TabsProps) {
+function Tabs({ children, autoSwitchInterval = 7000 }: TabsProps) {
   const [active, setActive] = useState(0);
   const tabItemsRef = useRef<(HTMLLIElement | null)[]>(Array(children.length).fill(null));
 
