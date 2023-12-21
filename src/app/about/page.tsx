@@ -14,13 +14,13 @@ const About = () => {
 
   return (
     <>
+    <section className="section-lg">
       <SeoMeta
         title={title}
         meta_title={meta_title}
         description={description}
         image={image}
       />
-      <section className="section-sm">
         <div className="container">
           <div className="row justify-center">
             <div className="text-center md:col-10 lg:col-7">
@@ -28,19 +28,21 @@ const About = () => {
                 <ImageFallback
                   className="mx-auto mb-6 rounded-lg"
                   src={image}
-                  width={200}
-                  height={200}
+                  width={1200}
+                  height={500}
                   alt={title}
                 />
               )}
-              <div className="content">
+            </div>
+            <div className="content text-center">
                 <MDXContent content={content} />
               </div>
-              <h2 className="h3 mb-6"> ¿Por qué Elegirnos?</h2>
-            </div>
           </div>
         </div>
+      </section>
 
+      <section className="section-lm pt-14">
+      <h2 className="h3 mb-6 text-center"> ¿Por qué Elegirnos?</h2>
         <div className="container mx-auto my-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
             {/* Card 1 */}

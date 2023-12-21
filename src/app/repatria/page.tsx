@@ -12,7 +12,7 @@ const repatria = () => {
     <div className="row justify-center"></div>
     <div className="gallery-container text-center">
       <SeoMeta title={"Repatria"} />
-      <h3 className="mb-2">Repatria desde EEUU/CANADA</h3>
+      <h3 className="mb-10">Repatria desde EEUU/CANADA</h3>
       <p className="mb-8">
       Es cada vez más común que muchos estadounidenses vengan a residir en Costa Rica.  Cuando se presente una muerte de un ser querido, es normal que su familia solicite la repatriación de sus restos a su pueblo natal, ya sea de cuerpo entero o en cenizas.
      </p>
@@ -22,8 +22,9 @@ const repatria = () => {
 
      </div>
      </div>
+     <Testimonials data={testimonial} />
     </section>
-    <Testimonials data={testimonial} />
+
     <WhatsApp />
     </>
   );
