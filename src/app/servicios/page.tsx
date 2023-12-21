@@ -23,42 +23,12 @@ const servicios = () => {
      </div>
      <div   className="container mx-auto my-10 tab">
      <Tabs>
-
-<Tab name="Camposanto">
-  <h4>Un Lugar memorable para tus seres queridos</h4>
-
-  En Memorial Park estamos comprometidos en ayudarle a sobrellevar este difícil momento de la vida. Deseamos brindarle la tranquilidad que usted necesita para despedir a sus seres queridos mientras nosotros nos encargamos de todo por usted. Sus hermosos y cuidados jardines le darán un entorno único lleno de armonía y paz. Usted podrá recordar con serenidad a sus seres queridos con la confianza de que Memorial Park le va a brindar la más alta calidad en todos sus servicios para que ese momento sea lo más sereno posible para usted y su familia. Memorial Park es un lugar único para conmemorar a quienes tanto amamos.
-
-</Tab>
-
-<Tab name="Funeraria">
-  <h4>Servicios Funebres</h4>
-
-
-
-</Tab>
-
-<Tab name="Cremacion">
-  <h4>Servicios Funebres</h4>
-
-
-
-</Tab>
-
-<Tab name="Cenizario">
-  <h4>Servicios Funebres</h4>
-
-
-
-</Tab>
-
-<Tab name="Templo Religioso">
-  <h4>Servicios Funebres</h4>
-
-
-
-</Tab>
-
+  <Tab label="Camposanto" title="Title 1">
+    Contenido del Tab 1
+  </Tab>
+  <Tab label="Tab 2" title="Title 2">
+    Contenido del Tab 2
+  </Tab>
 
 </Tabs>
 
