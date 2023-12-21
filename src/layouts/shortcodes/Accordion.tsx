@@ -30,7 +30,7 @@ const Accordion = ({
           ></path>
         </svg>
       </button>
-      <div className="accordion-content">{children}</div>
+      <div className="accordion-content mb-5">{children}</div>
     </div>
   );
 };
