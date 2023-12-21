@@ -43,19 +43,20 @@ const Home = () => {
                   {banner.button!.label}
                 </a>
               )}
-            </div>
-            {banner.image && (
+              {banner.image && (
               <div className="col-12">
                 <ImageFallback
                   src={banner.image}
                   className="mx-auto rounded-lg"
-                  width="800"
+                  width="1200"
                   height="420"
                   alt="banner image"
                   priority
                 />
               </div>
             )}
+            </div>
+
           </div>
         </div>
       </section>
