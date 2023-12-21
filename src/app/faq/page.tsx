@@ -21,7 +21,7 @@ const faq = () => {
      </p>
      </div>
      </div>
-     <div   className="container mx-auto my-10 tab">
+     <div  className="container mx-auto my-10 tab mb-10">
      <Accordion title="¿Que ofrece el Camposanto?">
       Memorial Park ofrecerá los servicios de camposanto, funeraria, morgue, crematorio, cenizarios y templo religioso. Es decir, todo lo necesario para que en caso de la pérdida de un ser querido, usted no tenga que estar trasladándose a diferentes lugares para darle santa sepultura. Tiene espacio para más de 150 vehículos, con más de 10,000 propiedades en áreas verdes.
 
@@ -69,7 +69,7 @@ const faq = () => {
 
      <Accordion title="¿Qué sucede antes de que el camposanto se venda?">
      En este caso, será con las ventas propias del camposanto que se cubrirán todos los gastos relacionados al mantenimiento.
-     
+
      </Accordion>
 
      </div>
