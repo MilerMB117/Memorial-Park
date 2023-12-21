@@ -1,7 +1,9 @@
 "use client";
 import "swiper/css";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+
 
 
 const ImageSlider = () => {
@@ -57,34 +59,31 @@ const ImageSlider = () => {
   ];
 
   const swiperParams = {
-    modules: [Autoplay, Pagination],
+    modules: [Autoplay,],
     autoplay: {
-      delay: 3000,
+      delay: 5000,
     },
-    pagination: {
-      clickable: true,
-    },
+
     breakpoints: {
-      // Cuando el ancho de la pantalla sea igual o mayor a 768px
       768: {
-        slidesPerView: 2, // Número de diapositivas visibles
+        slidesPerView: 2,
       },
-      // Cuando el ancho de la pantalla sea igual o mayor a 992px
       992: {
-        slidesPerView: 1, // Número de diapositivas visibles
+        slidesPerView: 1,
       },
     },
   };
 
   return (
-    <div className="image-slider-container">
-    <Swiper {...swiperParams}>
-      {imagePaths.map((imagePath, index) => (
-        <SwiperSlide key={index}>
-          <img src={imagePath} alt={`Imagen ${index + 1}`} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="image-slider-container mb-0">
+      <Swiper {...swiperParams}>
+        {imagePaths.map((imagePath, index) => (
+          <SwiperSlide key={index}>
+            <img src={imagePath} alt={`Imagen ${index + 1}`} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
     </div>
   );
 };
