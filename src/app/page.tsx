@@ -48,7 +48,7 @@ const Home = () => {
                 <ImageFallback
                   src={banner.image}
                   className="mx-auto rounded-lg"
-                  width="1200"
+                  width="12000"
                   height="420"
                   alt="banner image"
                   priority
