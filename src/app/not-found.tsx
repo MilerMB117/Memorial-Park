@@ -14,7 +14,7 @@ const NotFound = async () => {
               <h1 className="h2 mb-4">Pagina no encontrada!</h1>
               <div className="content">
                 <p>
-                  Esta pagina no exite o fue removida.
+                  Esta pagina no existe o fue removida.
                 </p>
               </div>
               <a href="/" className="btn btn-primary mt-8">
