@@ -80,15 +80,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
                           <div className="mt-11 flex items-center">
-                            <div className="text-dark dark:text-white">
-                              <ImageFallback
-                                height={50}
-                                width={50}
-                                className="rounded-full"
-                                src={item.avatar}
-                                alt={item.name}
-                              />
-                            </div>
+                            
                             <div className="ml-4">
                               <h3
                                 dangerouslySetInnerHTML={markdownify(item.name)}
