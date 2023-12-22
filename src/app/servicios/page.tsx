@@ -1,11 +1,17 @@
 import SeoMeta from "@/partials/SeoMeta";
 import { getListPage } from "@/lib/contentParser";
-import Testimonials from "@/partials/Testimonials";
+import ImageFallback from "@/helpers/ImageFallback";;
 import WhatsApp from "@/partials/Whatsapp";
 import Tabs from "@/shortcodes/Tabs";
 import Tab from "@/shortcodes/Tab";
 
 const servicios = () => {
+  const services = getListPage("servicios/_index.md")
+  const {frontmatter} = services;
+  const {img
+  }: {
+    img: {image: string;}
+  } = frontmatter;
 
 
   return (
@@ -19,6 +25,18 @@ const servicios = () => {
       <p className="mb-8">
       En Memorial Park incorporamos los conceptos más modernos en materia de servicios exequiales, así como también contará con título de propiedad sobre su terreno. Para su mayor tranquilidad y seguridad, Memorial Park suscribió un Fideicomiso con el que se garantizará el mantenimiento a perpetuidad del Camposanto.
      </p>
+     {img.image && (
+              <div className="col-12 text-center">
+                <ImageFallback
+                  src={img.image}
+                  className="mx-auto rounded-lg"
+                  width="900"
+                  height="420"
+                  alt="banner image"
+                  priority
+                />
+              </div>
+            )}
      </div>
      </div>
      <div   className="container mx-auto my-10 tab">
