@@ -16,7 +16,6 @@ const ImageSlider = () => {
     "/images/campo/7.png",
     "/images/campo/11.png",
     "/images/campo/12.png",
-    "/images/campo/13.png",
     "/images/campo/14.png",
     "/images/campo/16.png",
     "/images/campo/17.png",
