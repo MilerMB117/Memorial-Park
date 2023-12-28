@@ -32,7 +32,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   loopedSlides={2}
                   centeredSlides={true}
                   autoplay={{
-                    delay: 2500,
+                    delay: 4500,
                     disableOnInteraction: false,
                   }}
                   spaceBetween={24}
