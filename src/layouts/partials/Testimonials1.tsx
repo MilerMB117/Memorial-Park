@@ -77,7 +77,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                                 )}
                                 className="text-dark dark:text-white"
                               />
-                              <blockquote
+                              <p
                             className="mt-8"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
