@@ -18,7 +18,6 @@ const ImageSlider = () => {
     "/images/campo/12.png",
     "/images/campo/13.png",
     "/images/campo/14.png",
-    "/images/campo/15.png",
     "/images/campo/16.png",
     "/images/campo/17.png",
     "/images/campo/18.png",
@@ -29,7 +28,6 @@ const ImageSlider = () => {
     "/images/campo/23.png",
     "/images/campo/24.png",
     "/images/campo/25.png",
-    "/images/campo/26.png",
     "/images/campo/27.png",
     "/images/campo/28.png",
     "/images/campo/29.png",
@@ -48,6 +46,11 @@ const ImageSlider = () => {
     "/images/campo/44.png",
     "/images/campo/45.png",
     "/images/campo/46.png",
+    "/images/campo/47.png",
+    "/images/campo/48.png",
+    "/images/campo/49.png",
+    "/images/campo/50.png",
+    "/images/campo/51.png",
     // Agrega más imágenes según sea necesario
   ];
 
