@@ -51,7 +51,7 @@ const servicios = () => {
     },
     {
       label: "Traslados entre Cementerios",
-      title: "Tenemos convenio con la Funeraria El Recuerdo.",
+      title: "Tenemos convenio con la Funeraria 'El Recuerdo'.",
       content:
         "Brindamos servicios de traslado de cuerpos a lo largo y ancho del territorio nacional, asegurando que los seres queridos lleguen a su destino final con el mismo nivel de profesionalismo y respeto que caracteriza a Memorial Park.",
     },
