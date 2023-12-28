@@ -86,13 +86,13 @@ const ImageSlider = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                height: "450px",
+                height: "520px",
               }}
             >
               <img
                 src={imagePath}
                 alt={`Imagen ${index + 1}`}
-                style={{ width: "850px", height: "450px", objectFit: "cover" }}
+                style={{ width: "750px", height: "520px",  }}
               />
             </div>
           </SwiperSlide>

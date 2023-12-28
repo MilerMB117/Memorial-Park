@@ -33,7 +33,7 @@ const repatria = () => {
                 <ImageFallback
                   src={img.image}
                   className="mx-auto rounded-lg"
-                  width="900"
+                  width="750"
                   height="420"
                   alt="banner image"
                   priority
