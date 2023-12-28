@@ -81,7 +81,20 @@ const ImageSlider = () => {
       <Swiper {...swiperParams}>
         {imagePaths.map((imagePath, index) => (
           <SwiperSlide key={index}>
-            <img src={imagePath} alt={`Imagen ${index + 1}`} />
+             <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: "450px",
+              }}
+            >
+              <img
+                src={imagePath}
+                alt={`Imagen ${index + 1}`}
+                style={{ width: "850px", height: "450px", objectFit: "cover" }}
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
