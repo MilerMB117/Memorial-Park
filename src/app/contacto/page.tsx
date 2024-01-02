@@ -24,47 +24,65 @@ const Contact = async () => {
         <div className="container">
           <div className="row">
             <div className="mx-auto md:col-10 lg:col-6">
-              <form action={contact_form_action} method="POST">
-                <div className="mb-6">
-                  <label htmlFor="name" className="form-label">
-                    Nombre Completo<span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    id="name"
-                    name="name"
-                    className="form-input"
-                    placeholder="John Doe"
-                    type="text"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label htmlFor="email" className="form-label">
-                    E-mail <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    id="email"
-                    name="email"
-                    className="form-input"
-                    placeholder="john.doe@email.com"
-                    type="email"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label htmlFor="message" className="form-label">
-                    Escríbanos<span className="text-red-500">*</span>
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    className="form-input"
-                    placeholder="Escribe tu mensaje aqui"
-                    rows={8}
-                  ></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary">
-                  Enviar
-                </button>
-              </form>
+            <form action={contact_form_action} method="POST">
+      <div className="mb-6">
+        <label htmlFor="name" className="form-label">
+          Nombre Completo<span className="text-red-500">*</span>
+        </label>
+        <input
+          id="name"
+          name="name"
+          className="form-input"
+          placeholder="John Doe"
+          type="text"
+          required
+        />
+      </div>
+      <div className="mb-6">
+        <label htmlFor="email" className="form-label">
+          E-mail <span className="text-red-500">*</span>
+        </label>
+        <input
+          id="email"
+          name="email"
+          className="form-input"
+          placeholder="john.doe@email.com"
+          type="email"
+          required
+        />
+      </div>
+      <div className="mb-6">
+        <label htmlFor="phone" className="form-label">
+          Teléfono<span className="text-red-500">*</span>
+        </label>
+        <input
+          id="phone"
+          name="phone"
+          className="form-input"
+          placeholder="+1234567890"
+          type="tel"
+          pattern="[+0-9]+"
+          title="Por favor, ingresa un número de teléfono válido (solo números y '+')"
+          required
+        />
+      </div>
+      <div className="mb-6">
+        <label htmlFor="message" className="form-label">
+          Escríbanos<span className="text-red-500">*</span>
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          className="form-input"
+          placeholder="Escribe tu mensaje aquí"
+          rows={8}
+          required
+        ></textarea>
+      </div>
+      <button type="submit" className="btn btn-primary">
+        Enviar
+      </button>
+    </form>
             </div>
             <div className="lg:col-6">
   <div className="contact-info">
