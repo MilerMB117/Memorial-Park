@@ -5,11 +5,7 @@ description: "Estas son las experiencias de nuestros clientes mas cercanos."
 
 # Testimonials
 testimonials:
-  - name: "Camposanto"
-    designation: "Un lugar memorable para sus seres queridos."
-    avatar: "/images/avatar-sm.png"
-    content: "En Memorial Park estamos comprometidos en ayudarle a sobrellevar este difícil momento de la vida. Deseamos brindarle la tranquilidad que usted necesita para despedir a sus seres queridos mientras nosotros nos encargamos de todo por usted. Sus hermosos y cuidados jardines le darán un entorno único lleno de armonía y paz. "
-
+  
   - name: "Servicios Funerarios"
     designation: "Cuidado y Compasión en Cada Despedida."
     avatar: "/images/avatar-sm.png"
@@ -44,9 +40,9 @@ testimonials:
     
 
   - name: "Repatriaciones"
-    designation: "USA, Canada: Uniendo Distancias, Respetando Historias."
+    designation: "USA/Canada y Resto del mundo"
     avatar: "/images/avatar-sm.png"
-    content: "Facilitamos el proceso de repatriación de cuerpos para aquellos que desean llevar a sus seres queridos de regreso a su lugar de origen. Garantizamos un manejo cuidadoso y respetuoso en cada paso del proceso. Encuentras más información en la pestaña de Repatriaciones o a través de Whatsapp."
+    content: "Traslados entre cementerios : Sus familiares merecen reposar en un lugar de amplia belleza."
     
 
 ---

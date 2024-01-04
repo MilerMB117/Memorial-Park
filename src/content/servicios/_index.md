@@ -1,6 +1,6 @@
 ---
 #repatriar
   img:
-    image: "/images/campo/48.png"
+    image: "/images/campo/47.png"
 
 ---
