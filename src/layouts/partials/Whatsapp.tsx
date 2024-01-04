@@ -10,6 +10,7 @@ export default function WhatsApp(){
     accountName="Memorial Park"
     statusMessage="Bienvenido!"
     chatMessage="Hola!, ¿En que podemos ayudarte?"
+    avatar="/images/memorial.png"
     allowEsc
     notification
     notificationSound
