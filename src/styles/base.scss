@@ -12,7 +12,9 @@ h1{
 h2{
   @apply font-secondary font-bold leading-tight text-primary dark:text-darkmode-dark;
 }
-h3,
+h3{
+  @apply font-secondary font-bold leading-tight text-primary dark:text-darkmode-dark;
+}
 h4,
 h5,
 h6 {

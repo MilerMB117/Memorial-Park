@@ -11,7 +11,7 @@ import WhatsApp from "@/partials/Whatsapp";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
-  const testimonial = getListPage("sections/testimonial.md");
+  const testimonial = getListPage("sections/testimonial2.md");
   const { frontmatter } = homepage;
   const {
     banner,

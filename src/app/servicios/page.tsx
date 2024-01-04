@@ -21,7 +21,7 @@ const servicios = () => {
     <section className="section pt-14 ">
     <div className="container">
     <div className="row justify-center"></div>
-    <div className="gallery-container text-center">
+    <div className="gallery-container text-center ">
       <SeoMeta title={"Servicios"} />
       <h3 className="mb-2">Nuestros Servicios</h3>
       <p className="mb-8 text-center">
