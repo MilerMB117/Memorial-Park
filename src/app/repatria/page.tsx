@@ -3,6 +3,7 @@ import { getListPage } from "@/lib/contentParser";
 import Testimonials from "@/partials/Testimonials";
 import ImageFallback from "@/helpers/ImageFallback";
 
+
 import WhatsApp from "@/partials/Whatsapp";
 
 const repatria = () => {
@@ -25,14 +26,14 @@ const repatria = () => {
       Es cada vez más común que muchos extranjeros vengan a residir a costa rica. En Memorial Park asistimos a las familias de manera personal cuando un miembro de la familia residente muere en nuestro país. Asistimos a la repatriación a su país natal en cuerpo o ceniza.
       El personal de Memorial Park asistirá de manera personalizada a los familiares en todos los pasos que este proceso conlleva.
      </p>
-     <ol className="text-center mb-8">
+     <ul className="text-center mb-8">
     <li>1. Traslados dentro del país</li>
     <li>2. Embalsamo/Cremación</li>
     <li>3. Trámites ante el Ministerio de Salud de Costa Rica</li>
     <li>4. Trámites ante el consulado respectivo</li>
     <li>5. Trámites aduanales</li>
     <li>6. Traslado aéreo</li>
-  </ol>
+  </ul>
 
      {img.image && (
               <div className="col-12 text-center">

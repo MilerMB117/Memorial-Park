@@ -6,6 +6,9 @@ body {
   @apply bg-body font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
 }
 
+a{
+  @apply font-secondary font-bold leading-tight text-dark dark:text-darkmode-dark;
+}
 h1{
   @apply font-secondary font-bold leading-tight text-primary dark:text-darkmode-dark;
 }

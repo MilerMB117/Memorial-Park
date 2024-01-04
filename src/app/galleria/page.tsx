@@ -8,10 +8,10 @@ import WhatsApp from "@/partials/Whatsapp";
 const Gallery = () => {
   return (
     <>
-    <section className="section-lm mb-10">
+    <section className="section pt-14">
     <div className="container">
-    <div className="row justify-center"></div>
-    <div className="gallery-container text-center">
+    <div className="row justify-center">
+    <div className="lg:col-9 gallery-container text-center">
       <SeoMeta title={"Galeria"} />
       <h3 className="mb-2">Conoce el Campo Santo</h3>
       <p className="mb-8">Muchas gracias por todas las actividades que organizan, se nota el cariño con que las hacen, es motivo de alegría saber que escogimos el mejor lugar para que descanse nuestro amado padre.  Dios los bendiga a todos y nuevamente muchas gracias
@@ -19,6 +19,7 @@ const Gallery = () => {
      </p>
 
      <ImageSlider  />
+     </div>
      </div>
      </div>
     </section>
