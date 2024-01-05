@@ -23,7 +23,7 @@
   },
 
   "params": {
-    "contact_form_action": "#",
+    "contact_form_action": "/",
     "copyright": "Hitch"
   },
 
