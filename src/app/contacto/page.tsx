@@ -4,12 +4,17 @@ import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 import WhatsApp from "@/partials/Whatsapp";
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = async () => {
   const data: RegularPage = getListPage("contact/_index.md");
   const { frontmatter } = data;
   const { title, description, meta_title, image } = frontmatter;
   const { contact_form_action } = config.params;
+
+
+
+
 
   return (
     <>
@@ -24,7 +29,7 @@ const Contact = async () => {
         <div className="container">
           <div className="row">
             <div className="mx-auto md:col-10 lg:col-6">
-            <form action={contact_form_action} method="POST">
+            <form id="formu" >
       <div className="mb-6">
         <label htmlFor="name" className="form-label">
           Nombre Completo<span className="text-red-500">*</span>
