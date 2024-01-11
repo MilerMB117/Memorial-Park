@@ -5,30 +5,34 @@ description: "Nuestros clientes comparten sus experiencias"
 
 # Testimonials
 testimonials:
-  - name: "Christel Sanks"
-    designation: "Atlanta, Georgia"
+  - name: "Ligia Picado Chaves"
+    designation: "Costa Rica"
     avatar: "/images/avatar-sm.png"
-    content: "Thank you! Thank You! I truly appreciate everything you have done!! Be well"
+    content: "Que bueno que tengo un lugar ahí. Mi felicitación a Memorial Park que siempre lo atiende a uno con mucha amabilidad.  Es un lugar que se respira paz."
 
-  - name: "Joshua Olson"
-    designation: "Denver, Colorado"
+  - name: "Irma Velásquez"
+    designation: "Costa Rica"
     avatar: "/images/avatar-sm.png"
-    content: "He did, yes. Had some issues with customs but he’s home and I greatly appreciate the care and compassion you showed not only in his remains but in the quality of casket and all that you sent him in."
+    content: "Muchas gracias por todas las actividades que organizan, se nota el cariño con que las hacen, es motivo de alegría saber que escogimos el mejor lugar para que descanse nuestro amado padre.  Dios los bendiga a todos y nuevamente muchas gracias"
 
-  - name: "Michelle Lee Sal"
-    designation: "Ancorage, Alaska"
+  - name: "Mabach Costa Rica"
+    designation: "Costa Rica"
     avatar: "/images/avatar-sm.png"
-    content: "Thank you for all of your constant and helpful communication. You have been amazing. When all is said and done I would love to write a very positive review. 
-Thank you so much Cristian."
+    content: "Año con año ha sido destacado por su preocupación hacia el cliente, familiares y amigos de nuestros seres queridos que parten hacia la Eternidad.  Con seriedad y prontitud y efectivo respaldo en los momentos más difíciles de nuestra vida."
 
-  - name: "Peter Francis"
-    designation: "Toronto, Canada"
+  - name: "Xinia Morales"
+    designation: "Costa Rica"
     avatar: "/images/avatar-sm.png"
-    content: "Good morning Cristian, everything went well with our travels home.  No problems at the airport. Very thankful for all of your assistance.m God Bless"
+    content: "Es un lugar donde dejamos descansar en paz a nuestros seres queridos.  Memorial Park es hermoso y da mucha tranquilidad."
 
-  - name: "Bob Boyle"
-    designation: "Denver, Colorado"
+  - name: "Álvaro Carvajal"
+    designation: "Costa Rica"
     avatar: "/images/avatar-sm.png"
-    content: "I also wanted to thank you for the beautiful urn and sack. Your care was much more respectful and dignified. I thank you for that."
+    content: "Gracias nuevamente y ustedes en verdad son verdaderos ángeles.  Que Dios los cuide siempre a ustedes y a sus familias."
+  
+  - name: "Diego Cordero"
+    designation: "Costa Rica"
+    avatar: "/images/avatar-sm.png"
+    content: "Solo quería agradecerles, una vez más, el evento de ayer.  Como siempre con detalles especiales, que hacen menos dolorosas las visitas al cementerio.  DIOS los siga colmando de SU LUZ para que continúen creciendo."
 
 ---

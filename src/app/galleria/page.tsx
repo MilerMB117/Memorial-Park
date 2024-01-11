@@ -14,8 +14,7 @@ const Gallery = () => {
     <div className="lg:col-9 gallery-container text-center">
       <SeoMeta title={"Galeria"} />
       <h3 className="mb-2">Conoce el Campo Santo</h3>
-      <p className="mb-8">Muchas gracias por todas las actividades que organizan, se nota el cariño con que las hacen, es motivo de alegría saber que escogimos el mejor lugar para que descanse nuestro amado padre.  Dios los bendiga a todos y nuevamente muchas gracias
-        Irma Velásquez. Año tras año ha sido destacado por su preocupación hacia el cliente, familiares y amigos de nuestros seres queridos que parten hacia la Eternidad.  Con seriedad y prontitud y efectivo respaldo en los momentos más difíciles de nuestra vida. Mabach Costa Rica
+      <p className="mb-8">Memorial Park ofrecerá los servicios de camposanto, funeraria, morgue, crematorio, cenizarios y templo religioso. Es decir, todo lo necesario para que en caso de la pérdida de un ser querido, usted no tenga que estar trasladándose a diferentes lugares para darle santa sepultura. Tiene espacio para más de 150 vehículos, con más de 10,000 propiedades en áreas verdes.
      </p>
 
      <ImageSlider  />
