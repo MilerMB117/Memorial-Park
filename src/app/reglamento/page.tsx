@@ -20,7 +20,7 @@ const faq = () => {
           </div>
         </div>
         <div className="container mx-auto my-10 tab mb-10">
-        <Accordion title="CAPÍTULO PRELIMINAR: DEFINICIONES.">
+          <Accordion title="CAPÍTULO PRELIMINAR: DEFINICIONES.">
             <p>
               Para los efectos de este Reglamento, las siguientes palabras
               tendrán el significado que a continuación se indica:
@@ -563,7 +563,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPÍTULO DECIMO: DE LAS INHUMACIONES.">
+          <Accordion title="CAPÍTULO DÉCIMO: DE LAS INHUMACIONES.">
             <p>
               <strong>Artículo cuarenta y seis:</strong> Las inhumaciones solo
               podrán realizarse previo cumplimiento de las disposiciones legales
@@ -622,7 +622,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPÍTULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
+          <Accordion title="CAPÍTULO DÉCIMO PRIMERO: DE LAS EXHUMACIONES.">
             <p>
               <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
               prohibir la exhumación de sus restos y los de sus hijos menores de
@@ -684,69 +684,61 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPÍTULO DECIMO SEGUNDO: DEL REGISTRO FUNERARIO.">
+          <Accordion title="CAPÍTULO DÉCIMO SEGUNDO: DEL REGISTRO FUNERARIO.">
             <p>
-              <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
-              prohibir la exhumación de sus restos y los de sus hijos menores de
-              edad. También podrá prohibir la exhumación de los restos de una
-              tercera persona, siempre que esta haya previamente otorgado dicho
-              consentimiento por escrito. Cuando exista esta prohibición, las
-              personas que por traspaso adquieran esta propiedad podrán hacer
-              uso exclusivamente de los espacios no ocupados con esta
-              restricción.
+              <strong>Artículo sesenta:</strong> La Administración se obliga a
+              llevar los siguientes libros de registro: a) Registro de
+              Propiedad; b) Registro de Inhumaciones, c) Registro de Traslados y
+              Exhumaciones; d) Registro de Cremaciones de cadáveres y e)
+              Cementerio de mascotas
             </p>
             <p>
-              <strong>Artículo cincuenta y cuatro:</strong> Para todos los
-              efectos, no se considerará exhumación, el levantamiento o traslado
-              dentro del cementerio de la cripta de ferro concreto sellada que
-              contiene el ataúd con los restos humanos.
+              <strong>Artículo sesenta y uno:</strong> En el Registro de
+              Propietarios, se hará constar: a) identificación del lote, con la
+              ubicación exacta según el diseño de sitio; b) nombre y apellidos
+              de la persona o personas, o bien la razón social de la persona
+              jurídica, a quienes pertenezca; c) número de folio real y plano
+              catastrado; d) información de cualquier dato relevante sobre la
+              propiedad.
             </p>
             <p>
-              <strong>Artículo cincuenta y cinco:</strong> De conformidad con
-              las leyes, las exhumaciones de cenizas se pueden realizar en
-              cualquier momento. Para el caso específico de exhumaciones de
-              cadáveres o restos humanos se considerarán ordinarias y
-              extraordinarias. Las primeras son las que se hacen después de los
-              cinco años de inhumados los restos y las segundas las que
-              contemplan el artículo anterior.
+              <strong>Artículo sesenta y dos:</strong> De conformidad con las
+              leyes, las exhumaciones de cenizas se pueden realizar en cualquier
+              momento. Para el caso específico de exhumaciones de cadáveres o
+              restos humanos se considerarán ordinarias y extraordinarias. Las
+              primeras son las que se hacen después de los cinco años de
+              inhumados los restos y las segundas las que contemplan el artículo
+              anterior.
             </p>
             <p>
-              <strong>Artículo cincuenta y seis:</strong> Para la exhumación
-              ordinaria de cadáveres o restos humanos, los propietarios y/o
-              beneficiarios deberán presentar solicitud escrita a la
-              Administración del cementerio, quien procederá a otorgarla previa
-              comprobación de la identidad del cadáver, mediante su registro en
-              los libros respectivos.
+              <strong>Artículo sesenta y tres:</strong> El Registro de
+              Exhumaciones y Traslados deberá contener: a) nombre del
+              propietario del derecho funerario, donde se practica la
+              exhumación; b) nombre, calidades y fecha de enterramiento del
+              cadáver a exhumar; c) trascripción de la orden de la autoridad
+              competente o del Ministerio de Salud, que autorice la exhumación;
+              y d) se dejará constancia de haber transcurrido el término de
+              cinco años a que se refiere el artículo treinta del Reglamento
+              General de Cementerios del Ministerio de Salud.
             </p>
             <p>
-              <strong>Artículo cincuenta y siete:</strong> Se permitirán
-              únicamente las exhumaciones extraordinarias cuando fueren
-              ordenadas por autoridad judicial competente y en la práctica de
-              estas se observarán todos los requisitos que señala la ley. Se
-              entiende por exhumación extraordinaria la que se efectúa dentro de
-              los primeros cinco años posteriores contados a partir de la
-              inhumación de los restos.
+              <strong>Artículo sesenta y cuatro: </strong> El Registro de
+              Cremaciones deberá contener: a) nombre, calidades y fecha del
+              fallecimiento de la personería cuyo cadáver se va a incinerar; b)
+              trascripción literal de la orden oficial que autoriza la
+              incineración; y c) trascripción de todos los datos más importantes
+              del acta de incineración.
             </p>
             <p>
-              <strong>Artículo cincuenta y ocho:</strong> La Administración
-              podrá efectuar exhumaciones ordinarias de oficio, en cuyo caso
-              además de acatar las regulaciones específicas, debe cumplir los
-              siguientes requisitos adicionales: a) notificar a los familiares
-              cercanos, si los hay, con quince días de anticipación; y b)
-              levantar acta por duplicado haciendo constar: 1) Nombres y
-              apellidos completos del fallecido; 2) Fecha de enterramiento y
-              datos de identificación del lugar donde se encuentra inhumado; 3)
-              Causa de la muerte; 4) Destino final de los restos; 5) Los demás
-              datos que exija el Reglamento interno del Cementerio.
-            </p>
-            <p>
-              <strong>Artículo cincuenta y nueve:</strong> Todos los gastos que
-              ocasione una inhumación o traslado deberán ser cancelados con
-              anterioridad a la Administración.
+              <strong>Artículo sesenta y cinco:</strong> El Registro de Mascotas
+              deberá contener: a) nombre completo de la mascota; b) nombre,
+              calidades del propietario de la mascota; c) fecha de muerte y
+              fecha de inhumación de las cenizas; y c) número y/o documento
+              emitido por el crematorio sobre la cremación de la mascota.
             </p>
           </Accordion>
 
-          <Accordion title="CAPÍTULO DECIMO TERCERO: DISPOSICIONES VARIAS.">
+          <Accordion title="CAPÍTULO DÉCIMO TERCERO: DISPOSICIONES VARIAS.">
             <p>
               <strong>Artículo sesenta y seis:</strong> El cementerio estará
               abierto al público de las seis horas a las diecisiete horas y
@@ -780,9 +772,9 @@ const faq = () => {
             <p>
               <strong>Artículo setenta:</strong> El presente reglamento es parte
               integral del contrato de compra-venta que se suscribe entre el
-              propietario particular y la empresa propietaria, y, por lo tanto, las
-              partes se obligan a cumplirlo íntegramente y lo harán constar así
-              en el respectivo documento.
+              propietario particular y la empresa propietaria, y, por lo tanto,
+              las partes se obligan a cumplirlo íntegramente y lo harán constar
+              así en el respectivo documento.
             </p>
             <p>
               <strong>Artículo setenta y uno:</strong> El presente reglamento
