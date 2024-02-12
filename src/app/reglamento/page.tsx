@@ -20,7 +20,7 @@ const faq = () => {
           </div>
         </div>
         <div className="container mx-auto my-10 tab mb-10">
-          <Accordion title="CAPÍTULO PRELIMINAR: DEFINICIONES.">
+        <Accordion title="CAPÍTULO PRELIMINAR: DEFINICIONES.">
             <p>
               Para los efectos de este Reglamento, las siguientes palabras
               tendrán el significado que a continuación se indica:
@@ -64,7 +64,7 @@ const faq = () => {
               </li>
               <li>
                 <strong>Cripta o Bóveda: </strong> Corresponde a la estructura
-                de ferroconcreto o construcción subterránea destinado para la
+                de ferroconcreto o construcción subterránea destinada para la
                 inhumación de cadáveres humanos.
               </li>
               <li>
@@ -164,9 +164,9 @@ const faq = () => {
             </p>
             <p>
               <strong> Artículo cinco:</strong> El cementerio es un lugar
-              destinado exclusivamente, a la ubicación póstuma de cadáveres y
+              destinado, exclusivamente, a la ubicación póstuma de cadáveres y
               restos humanos y su conservación, así como también la conservación
-              de las cenizas producto de la cremación de cadáveres y de
+              de las cenizas, producto de la cremación de cadáveres y de
               mascotas.
             </p>
             <p>
@@ -205,7 +205,7 @@ const faq = () => {
             </p>
             <p>
               <strong> Artículo once:</strong> Cualquier construcción que se
-              haga en el cementerio deberá contar con la autorización y
+              haga en el cementerio, deberá contar con la autorización y
               aprobación de las autoridades costarricenses, según corresponda y
               cumplir con las leyes y reglamentos que para estos efectos debiera
               cumplir.
@@ -237,7 +237,7 @@ const faq = () => {
             </p>
             <p>
               <strong> Artículo quince:</strong> Las criptas deberán construirse
-              o enterrarse sujetándose estrictamente a la posición y tamaño que
+              o enterrarse, sujetándose estrictamente a la posición y tamaño que
               indique el plano oficial. En aquellos casos donde las criptas
               deben de enterrarse, las mismas serán colocadas dentro de los
               lotes solamente cuando sea necesario efectuar una inhumación.
@@ -387,7 +387,7 @@ const faq = () => {
               <strong>Artículo treinta y dos:</strong> A raíz de que un lote
               solo podrá ser utilizado una vez, la Administración cobrará una
               cuota de mantenimiento por un plazo de 5 años adicionales a la
-              indicada en el artículo 39. Esta situación no cambiará aunque se
+              indicada en el artículo 39. Esta situación no cambiará, aunque se
               dé la autorización indicada en el artículo anterior.
             </p>
           </Accordion>
@@ -565,7 +565,7 @@ const faq = () => {
 
           <Accordion title="CAPÍTULO DECIMO: DE LAS INHUMACIONES.">
             <p>
-              <strong>Artículo cuarenta y seis:</strong> Las inhumaciones sólo
+              <strong>Artículo cuarenta y seis:</strong> Las inhumaciones solo
               podrán realizarse previo cumplimiento de las disposiciones legales
               sobre la materia y lo dispuesto por las autoridades competentes.
               La Administración cobrará una suma de dinero por concepto de
@@ -607,7 +607,7 @@ const faq = () => {
             <p>
               <strong>Artículo cincuenta y uno:</strong> No obstante que es
               requisito fundamental para la inhumación el certificado de
-              defunción otorgado en fórmulas oficiales y copia de la cédula de
+              defunción otorgada en fórmulas oficiales y copia de la cédula de
               identidad, la Administración no será responsable por la identidad
               de la persona a inhumarse.
             </p>
@@ -627,7 +627,7 @@ const faq = () => {
               <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
               prohibir la exhumación de sus restos y los de sus hijos menores de
               edad. También podrá prohibir la exhumación de los restos de una
-              tercera persona siempre que ésta haya previamente otorgado dicho
+              tercera persona, siempre que esta haya previamente otorgado dicho
               consentimiento por escrito. Cuando exista esta prohibición, las
               personas que por traspaso adquieran esta propiedad podrán hacer
               uso exclusivamente de los espacios no ocupados con esta
@@ -635,7 +635,7 @@ const faq = () => {
             </p>
             <p>
               <strong>Artículo cincuenta y cuatro:</strong> Para todos los
-              efectos, no se considerará exhumación el levantamiento o traslado
+              efectos, no se considerará exhumación, el levantamiento o traslado
               dentro del cementerio de la cripta de ferro concreto sellada que
               contiene el ataúd con los restos humanos.
             </p>
@@ -650,7 +650,7 @@ const faq = () => {
             </p>
             <p>
               <strong>Artículo cincuenta y seis:</strong> Para la exhumación
-              ordinaria de cadáveres o restos humanos los propietarios y/o
+              ordinaria de cadáveres o restos humanos, los propietarios y/o
               beneficiarios deberán presentar solicitud escrita a la
               Administración del cementerio, quien procederá a otorgarla previa
               comprobación de la identidad del cadáver, mediante su registro en
@@ -662,7 +662,7 @@ const faq = () => {
               ordenadas por autoridad judicial competente y en la práctica de
               estas se observarán todos los requisitos que señala la ley. Se
               entiende por exhumación extraordinaria la que se efectúa dentro de
-              los primeros cinco años posteriores contados a partir de la
+              los primeros cinco años posteriores, contados a partir de la
               inhumación de los restos.
             </p>
             <p>
@@ -679,17 +679,17 @@ const faq = () => {
             </p>
             <p>
               <strong>Artículo cincuenta y nueve:</strong> Todos los gastos que
-              ocasione una inhumación o traslado deberán ser cancelados con
+              ocasione una inhumación o traslado, deberán ser cancelados con
               anterioridad a la Administración.
             </p>
           </Accordion>
 
-          <Accordion title="CAPÍTULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
+          <Accordion title="CAPÍTULO DECIMO SEGUNDO: DEL REGISTRO FUNERARIO.">
             <p>
               <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
               prohibir la exhumación de sus restos y los de sus hijos menores de
               edad. También podrá prohibir la exhumación de los restos de una
-              tercera persona siempre que ésta haya previamente otorgado dicho
+              tercera persona, siempre que esta haya previamente otorgado dicho
               consentimiento por escrito. Cuando exista esta prohibición, las
               personas que por traspaso adquieran esta propiedad podrán hacer
               uso exclusivamente de los espacios no ocupados con esta
@@ -697,7 +697,7 @@ const faq = () => {
             </p>
             <p>
               <strong>Artículo cincuenta y cuatro:</strong> Para todos los
-              efectos, no se considerará exhumación el levantamiento o traslado
+              efectos, no se considerará exhumación, el levantamiento o traslado
               dentro del cementerio de la cripta de ferro concreto sellada que
               contiene el ataúd con los restos humanos.
             </p>
@@ -712,7 +712,7 @@ const faq = () => {
             </p>
             <p>
               <strong>Artículo cincuenta y seis:</strong> Para la exhumación
-              ordinaria de cadáveres o restos humanos los propietarios y/o
+              ordinaria de cadáveres o restos humanos, los propietarios y/o
               beneficiarios deberán presentar solicitud escrita a la
               Administración del cementerio, quien procederá a otorgarla previa
               comprobación de la identidad del cadáver, mediante su registro en
@@ -750,7 +750,7 @@ const faq = () => {
             <p>
               <strong>Artículo sesenta y seis:</strong> El cementerio estará
               abierto al público de las seis horas a las diecisiete horas y
-              treinta minutos. Sólo la Administración podrá hacer variaciones en
+              treinta minutos. Solo la Administración podrá hacer variaciones en
               este horario.
             </p>
             <p>
@@ -763,7 +763,7 @@ const faq = () => {
               <strong>Artículo sesenta y ocho:</strong> La Administración se
               reserva el derecho de realizar todo tipo de reparaciones y
               mantenimiento en todas las instalaciones del Cementerio, ya sea
-              que éstas se realicen en terreno propio de la empresa o en
+              que estas se realicen en terreno propio de la empresa o en
               propiedades ya vendidas en beneficio de estas para su correcta
               conservación. Consecuentemente, el traspaso de la propiedad se
               hará con dichas limitaciones.
@@ -773,14 +773,14 @@ const faq = () => {
               totalmente ajeno a cualquier tipo de ideas políticas o principios
               religiosos. En consecuencia, se respetarán todas las creencias
               sean de la clase que fueren y permitirá a sus instalaciones la
-              celebración de ritos de cualquier creencia siempre y cuando no se
+              celebración de ritos de cualquier creencia, siempre y cuando no se
               ponga en peligro con ellos la tranquilidad del Cementerio, ni se
               atente contra la ley y las buenas costumbres.
             </p>
             <p>
               <strong>Artículo setenta:</strong> El presente reglamento es parte
               integral del contrato de compra-venta que se suscribe entre el
-              propietario particular y la empresa propietaria y por lo tanto las
+              propietario particular y la empresa propietaria, y, por lo tanto, las
               partes se obligan a cumplirlo íntegramente y lo harán constar así
               en el respectivo documento.
             </p>
