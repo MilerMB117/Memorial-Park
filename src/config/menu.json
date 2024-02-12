@@ -33,6 +33,10 @@
     {
       "name": "Inicio",
       "url": "/"
+    },
+    {
+      "name": "Reglamento Interno",
+      "url": "/reglamento"
     }
   ]
 }

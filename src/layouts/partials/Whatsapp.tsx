@@ -1,5 +1,4 @@
 "use client";
-import "swiper/css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 
