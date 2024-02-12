@@ -20,7 +20,7 @@ const faq = () => {
           </div>
         </div>
         <div className="container mx-auto my-10 tab mb-10">
-          <Accordion title="CAPITULO PRELIMINAR: DEFINICIONES.">
+          <Accordion title="CAPÍTULO PRELIMINAR: DEFINICIONES.">
             <p>
               Para los efectos de este Reglamento, las siguientes palabras
               tendrán el significado que a continuación se indica:
@@ -137,7 +137,7 @@ const faq = () => {
             </ul>
           </Accordion>
 
-          <Accordion title="CAPITULO PRIMERO: DISPOSICIONES GENERALES.">
+          <Accordion title="CAPÍTULO PRIMERO: DISPOSICIONES GENERALES.">
             <p>
               <strong>Artículo uno:</strong> El presente Reglamento regula la
               construcción, conservación, administración y operación del
@@ -184,7 +184,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO SEGUNDO: SOBRE EL CEMENTERIO.">
+          <Accordion title="CAPÍTULO SEGUNDO: SOBRE EL CEMENTERIO.">
             <p>
               <strong>Artículo ocho:</strong> El cementerio deberá contar con un
               diseño de sitio (plano general) aprobado por las autoridades
@@ -218,7 +218,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO TERCERO: DE LOS LOTES.">
+          <Accordion title="CAPÍTULO TERCERO: DE LOS LOTES.">
             <p>
               <strong>Artículo trece: </strong>Todo lote en el cementerio deberá
               contar con su correspondiente folio real y su plano catastrado,
@@ -275,7 +275,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO CUARTO: LOS CENIZARIOS.">
+          <Accordion title="CAPÍTULO CUARTO: LOS CENIZARIOS.">
             <p>
               <strong>Artículo diecinueve:</strong> El cementerio podrá destinar
               áreas específicas para la inhumación de cenizas producto de la
@@ -304,7 +304,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO QUINTO: LOS COLUMBARIOS.">
+          <Accordion title="CAPÍTULO QUINTO: LOS COLUMBARIOS.">
             <p>
               <strong>Artículo veintitrés:</strong> El cementerio podrá destinar
               áreas específicas para el resguardo de cenizas producto de la
@@ -324,7 +324,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO SEXTO: CEMENTERIO JUDIO BEIT SHALOM.">
+          <Accordion title="CAPÍTULO SEXTO: CEMENTERIO JUDIO BEIT SHALOM.">
             <p>
               <strong>Artículo veintiséis:</strong> Se destina el Jardín G del
               plano general del cementerio para crear el Cementerio Judío Beit
@@ -392,7 +392,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO SEPTIMO: DEL CEMENTERIO DE MASCOTAS.">
+          <Accordion title="CAPÍTULO SEPTIMO: DEL CEMENTERIO DE MASCOTAS.">
             <p>
               <strong>Artículo veintitrés:</strong> El cementerio destinará un
               área específica para el resguardo exclusivo de cenizas producto de
@@ -414,7 +414,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO OCTAVO: DEL FINANCIAMIENTO A LOS INTERESADOS.">
+          <Accordion title="CAPÍTULO OCTAVO: DEL FINANCIAMIENTO A LOS INTERESADOS.">
             <p>
               <strong>Artículo treinta y tres:</strong> La sociedad propietaria
               podrá ofrecer a los interesados financiamiento para la adquisición
@@ -462,7 +462,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO NOVENO: DE LA CONSERVACIÓN, MANTENIMIENTO Y DEMÁS OBLIGACIONES DE LA ADMINISTRACIÓN.">
+          <Accordion title="CAPÍTULO NOVENO: DE LA CONSERVACIÓN, MANTENIMIENTO Y DEMÁS OBLIGACIONES DE LA ADMINISTRACIÓN.">
             <p>
               <strong>Artículo treinta y siete:</strong> Es obligación de la
               Administración mantener en buen estado de limpieza y conservación
@@ -563,7 +563,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO DECIMO: DE LAS INHUMACIONES.">
+          <Accordion title="CAPÍTULO DECIMO: DE LAS INHUMACIONES.">
             <p>
               <strong>Artículo cuarenta y seis:</strong> Las inhumaciones sólo
               podrán realizarse previo cumplimiento de las disposiciones legales
@@ -622,7 +622,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
+          <Accordion title="CAPÍTULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
             <p>
               <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
               prohibir la exhumación de sus restos y los de sus hijos menores de
@@ -684,7 +684,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
+          <Accordion title="CAPÍTULO DECIMO PRIMERO: DE LAS EXHUMACIONES.">
             <p>
               <strong>Artículo cincuenta y tres:</strong> Todo propietario podrá
               prohibir la exhumación de sus restos y los de sus hijos menores de
@@ -746,7 +746,7 @@ const faq = () => {
             </p>
           </Accordion>
 
-          <Accordion title="CAPITULO DECIMO TERCERO: DISPOSICIONES VARIAS.">
+          <Accordion title="CAPÍTULO DECIMO TERCERO: DISPOSICIONES VARIAS.">
             <p>
               <strong>Artículo sesenta y seis:</strong> El cementerio estará
               abierto al público de las seis horas a las diecisiete horas y
