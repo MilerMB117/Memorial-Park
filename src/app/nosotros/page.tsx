@@ -57,7 +57,7 @@ const About = () => {
             <div className=" rounded-lg shadow-md">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3">Respaldo</h3>
-                <p className="">En Memorial Park incorporamos los conceptos más modernos en materia de servicios exequiales, así como también contará con título de propiedad sobre su terreno. Para su mayor tranquilidad y seguridad, Memorial Park suscribió un Fideicomiso con el que se garantizará el mantenimiento a perpetuidad del Camposanto.</p>
+                <p className="">En Memorial Park incorporamos los conceptos más modernos en materia de servicios exequiales, así como también contará con título de propiedad sobre su terreno.</p>
               </div>
             </div>
 
