@@ -15,9 +15,6 @@
     "generate-json": "node scripts/jsonGenerator.js",
     "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "date-fns": "^2.30.0",
