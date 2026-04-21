@@ -4,7 +4,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
-import { FaCheck } from "react-icons/fa/index.js";
+import { FaCheck } from "react-icons/fa";
 import WhatsApp from "@/partials/Whatsapp";
 
 

@@ -9,30 +9,27 @@ import SeoMeta from "@/partials/SeoMeta";
 import { Post } from "@/types";
 
 const { blog_folder } = config.settings;
-type StaticParams = () => { single: string }[];
 
-// remove dynamicParams
 export const dynamicParams = false;
 
-// generate static params
-export const generateStaticParams: StaticParams = () => {
+export const generateStaticParams: () => { single: string }[] = () => {
   const tags = getTaxonomy(blog_folder, "tags");
-
-  const paths = tags.map((tag) => ({
-    single: tag,
-  }));
-
-  return paths;
+  return tags.map((tag) => ({ single: tag }));
 };
 
-const TagSingle = ({ params }: { params: { single: string } }) => {
+const TagSingle = async ({
+  params,
+}: {
+  params: Promise<{ single: string }>;
+}) => {
+  const { single } = await params;
   const posts: Post[] = getSinglePage(blog_folder);
-  const filterByTags = taxonomyFilter(posts, "tags", params.single);
+  const filterByTags = taxonomyFilter(posts, "tags", single);
 
   return (
     <>
-      <SeoMeta title={humanize(params.single)} />
-      <PageHeader title={humanize(params.single)} />
+      <SeoMeta title={humanize(single)} />
+      <PageHeader title={humanize(single)} />
       <div className="section-sm pb-0">
         <div className="container">
           <div className="row">

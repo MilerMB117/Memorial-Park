@@ -11,37 +11,24 @@ import { Post } from "@/types";
 
 const { blog_folder, pagination } = config.settings;
 
-// remove dynamicParams
 export const dynamicParams = false;
 
-// generate static params
 export const generateStaticParams = () => {
   const allPost: Post[] = getSinglePage(blog_folder);
-  const allSlug: string[] = allPost.map((item) => item.slug!);
-  const totalPages = Math.ceil(allSlug.length / pagination);
+  const totalPages = Math.ceil(allPost.length / pagination);
   let paths: { page: string }[] = [];
-
   for (let i = 1; i < totalPages; i++) {
-    paths.push({
-      page: (i + 1).toString(),
-    });
+    paths.push({ page: (i + 1).toString() });
   }
-
   return paths;
 };
 
-function spreadPages(num: number): number[] {
-  let pages = [];
-
-  for (let i = 2; i <= num; i++) {
-    pages.push(i);
-  }
-
-  return pages;
-}
-
-// for all regular pages
-const Posts = ({ params }: { params: { page: number } }) => {
+const Posts = async ({
+  params,
+}: {
+  params: Promise<{ page: string }>;
+}) => {
+  const { page } = await params;
   const postIndex: Post = getListPage(`${blog_folder}/_index.md`);
   const { title, meta_title, description, image } = postIndex.frontmatter;
   const posts: Post[] = getSinglePage(blog_folder);
@@ -50,20 +37,14 @@ const Posts = ({ params }: { params: { page: number } }) => {
   const tags = getTaxonomy(blog_folder, "tags");
   const sortedPosts = sortByDate(posts);
   const totalPages = Math.ceil(posts.length / pagination);
-  const currentPage =
-    params.page && !isNaN(Number(params.page)) ? Number(params.page) : 1;
+  const currentPage = page && !isNaN(Number(page)) ? Number(page) : 1;
   const indexOfLastPost = currentPage * pagination;
   const indexOfFirstPost = indexOfLastPost - pagination;
   const currentPosts = sortedPosts.slice(indexOfFirstPost, indexOfLastPost);
 
   return (
     <>
-      <SeoMeta
-        title={title}
-        meta_title={meta_title}
-        description={description}
-        image={image}
-      />
+      <SeoMeta title={title} meta_title={meta_title} description={description} image={image} />
       <PageHeader title={postIndex.frontmatter.title} />
       <section className="section">
         <div className="container">
@@ -76,18 +57,9 @@ const Posts = ({ params }: { params: { page: number } }) => {
                   </div>
                 ))}
               </div>
-              <Pagination
-                section={blog_folder}
-                currentPage={currentPage}
-                totalPages={totalPages}
-              />
+              <Pagination section={blog_folder} currentPage={currentPage} totalPages={totalPages} />
             </div>
-
-            <PostSidebar
-              categories={categories}
-              tags={tags}
-              allCategories={allCategories}
-            />
+            <PostSidebar categories={categories} tags={tags} allCategories={allCategories} />
           </div>
         </div>
       </section>
