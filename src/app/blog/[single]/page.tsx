@@ -15,7 +15,7 @@ import {
   FaRegClock,
   FaRegFolder,
   FaRegUserCircle,
-} from "react-icons/fa/index.js";
+} from "react-icons/fa";
 
 const { blog_folder } = config.settings;
 

@@ -55,7 +55,7 @@ function Tabs({ children, autoSwitchInterval = 7000 }: TabsProps) {
             tabIndex={index === active ? 0 : -1}
             onClick={() => setActive(index)}
             onKeyDown={(e) => handleKeyDown(e, index)}
-            ref={(ref) => (tabItemsRef.current[index] = ref)}
+            ref={(ref) => { tabItemsRef.current[index] = ref; }}
           >
             {item.props.label}
           </li>

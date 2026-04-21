@@ -1,5 +1,7 @@
 import { slug } from "github-slugger";
-import { marked } from "marked";
+import { Marked } from "marked";
+
+const markedInstance = new Marked();
 
 // slugify
 export const slugify = (content: string) => {
@@ -9,8 +11,8 @@ export const slugify = (content: string) => {
 // markdownify
 export const markdownify = (content: string, div?: boolean) => {
   const markdownContent: any = div
-    ? marked.parse(content)
-    : marked.parseInline(content);
+    ? (markedInstance.parse(content) as string)
+    : (markedInstance.parseInline(content) as string);
   return { __html: markdownContent };
 };
 
@@ -26,7 +28,7 @@ export const humanize = (content: string) => {
 
 // plainify
 export const plainify = (content: string) => {
-  const parseMarkdown = marked.parse(content);
+  const parseMarkdown = markedInstance.parse(content) as string;
   const filterBrackets = parseMarkdown.replace(/<\/?[^>]+(>|$)/gm, "");
   const filterSpaces = filterBrackets.replace(/[\r\n]\s*[\r\n]/gm, "");
   const stripHTML = htmlEntityDecoder(filterSpaces);
