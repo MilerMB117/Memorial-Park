@@ -6,7 +6,9 @@ const nextConfig = {
   basePath: config.base_path !== "/" ? config.base_path : "",
   trailingSlash: config.site.trailing_slash,
   output: 'standalone',
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
-
